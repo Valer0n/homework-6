@@ -81,11 +81,6 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  .container {
-    min-width: 1200px;
-    padding: 0;
-    margin: 0 auto;
-  }
   .header {
     padding-top: 40px;
     margin-bottom: 100px;
@@ -106,10 +101,8 @@ body {
     list-style: none;
   }
   .header li a {
-    position: static;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
     letter-spacing: -0.02em;
     text-decoration: none;
     color: #303031;
@@ -120,10 +113,6 @@ body {
   .header .sign-in a {
     font-weight: 700;
     color: #71a89e;
-  }
-  .hero {
-    padding-right: 120px;
-    padding-left: 120px;
   }
   .hero .container {
     flex-direction: row;
