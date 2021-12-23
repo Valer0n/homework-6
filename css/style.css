@@ -4,14 +4,17 @@
   box-sizing: border-box;
   line-height: 1;
 }
+
 body {
   background-color: #e5e5e5;
 }
+
 .container {
   max-width: 1200px;
   padding: 0 24px;
   margin: 0 auto;
 }
+
 .header {
   padding-top: 60px;
   margin-bottom: 47px;
@@ -40,6 +43,7 @@ body {
 .header ul {
   display: none;
 }
+
 .hero {
   padding-bottom: 100px;
 }
@@ -48,22 +52,22 @@ body {
   flex-direction: column;
   justify-content: flex-start;
 }
-.hero_text {
+.hero__text {
   order: 1;
 }
-.hero_text h1 {
+.hero__text h1 {
   font-size: 27px;
   line-height: 43px;
   color: #22322f;
   margin-bottom: 25px;
 }
-.hero_text p {
+.hero__text p {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.02em;
   margin-bottom: 30px;
 }
-.hero_text button {
+.hero__text button {
   min-height: 44px;
   min-width: 203px;
   font-size: 16px;
@@ -73,10 +77,10 @@ body {
   color: #fff;
   border-radius: 8px;
 }
-.hero_illustration {
+.hero__illustration {
   margin-bottom: 48px;
 }
-.hero_illustration img {
+.hero__illustration img {
   max-width: 100%;
 }
 
@@ -85,12 +89,12 @@ body {
     padding-top: 40px;
     margin-bottom: 100px;
   }
-  .header button {
-    display: none;
-  }
-  .header .logo {
+  .header__logo {
     width: 138px;
     height: 43px;
+  }
+  .header button {
+    display: none;
   }
   .header ul {
     min-width: 413px;
@@ -100,45 +104,46 @@ body {
     align-items: center;
     list-style: none;
   }
-  .header li a {
+  .header ul li a {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.02em;
     text-decoration: none;
     color: #303031;
   }
-  .header li:not(:last-child) {
+  .header ul li:not(:last-child) {
     margin-right: 40px;
   }
-  .header .sign-in a {
+  .header ul .sign-in a {
     font-weight: 700;
     color: #71a89e;
   }
+
   .hero .container {
     flex-direction: row;
     justify-content: space-between;
   }
-  .hero_text {
+  .hero__text {
     order: unset;
     width: 550px;
     height: 230px;
     margin-right: 35px;
     margin-top: 150px;
   }
-  .hero_text h1 {
+  .hero__text h1 {
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
     color: #22322f;
     margin-bottom: 25px;
   }
-  .hero_text p {
+  .hero__text p {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -0.02em;
     margin-bottom: 30px;
   }
-  .hero_text button {
+  .hero__text button {
     min-height: 67px;
     min-width: 222px;
     font-size: 18px;
@@ -148,8 +153,10 @@ body {
     color: #fff;
     border-radius: 8px;
   }
-  .hero_illustration {
+  .hero__illustration {
     margin-bottom: 0px;
     padding-bottom: 180px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
